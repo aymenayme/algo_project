@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 typedef struct Node {
-player A ; 
+player player1 ; 
   struct Node* next;
 } Node;
 typedef struct Queue {
@@ -15,7 +15,7 @@ typedef struct Queue {
 Queue* CreateQueue();
 bool IsEmpty(Queue* q);
 int GetSize(Queue* q);
-void Enqueue(Queue* q, int data);
+void Enqueue(Queue* q, player player1);
 int Dequeue(Queue* q);
 int Peek(Queue* q);
 void Display(Queue* q);
