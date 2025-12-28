@@ -1,5 +1,4 @@
 #include <stdio.h>
-##include <sys/queue.h>
 typedef struct {
 char name[20];
 int age;
